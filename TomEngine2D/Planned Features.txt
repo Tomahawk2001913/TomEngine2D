@@ -1,0 +1,7 @@
+- Animation class
+- Built in lighting?
+- Audio
+- TileMap class
+- File IO?
+- More camera features
+- Optimizations, of course.

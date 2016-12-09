@@ -33,6 +33,18 @@ namespace tom {
 			glUniformMatrix4fv(getUniformLocation(name), 1, GL_FALSE, glm::value_ptr(matrix));
 		}
 
+		void ShaderProgram::setUniformVector2(const GLchar* name, glm::vec2 vector) {
+			glUniform2f(getUniformLocation(name), vector.x, vector.y);
+		}
+
+		void ShaderProgram::setUniformVector3(const GLchar* name, glm::vec3 vector) {
+			glUniform3f(getUniformLocation(name), vector.x, vector.y, vector.z);
+		}
+
+		void ShaderProgram::setUniformVector4(const GLchar* name, glm::vec4 vector) {
+			glUniform4f(getUniformLocation(name), vector.x, vector.y, vector.z, vector.w);
+		}
+
 		void ShaderProgram::enable() {
 			glUseProgram(programID);
 		}

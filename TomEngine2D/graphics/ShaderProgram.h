@@ -16,6 +16,10 @@ namespace tom {
 
 			void setUniformMatrix4(const GLchar* name, glm::mat4 matrix);
 
+			void setUniformVector2(const GLchar* name, glm::vec2 vector);
+			void setUniformVector3(const GLchar* name, glm::vec3 vector);
+			void setUniformVector4(const GLchar* name, glm::vec4 vector);
+
 			void enable();
 			void disable();
 		private:

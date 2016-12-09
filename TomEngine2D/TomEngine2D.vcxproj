@@ -38,6 +38,9 @@
     <ClCompile Include="TomEngine2D.cpp" />
     <ClCompile Include="graphics\Window.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Planned Features.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6BC4AF15-B226-4D5F-A70B-30186D59E909}</ProjectGuid>
     <RootNamespace>TomEngine2D</RootNamespace>
